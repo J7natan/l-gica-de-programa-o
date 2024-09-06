@@ -1,0 +1,14 @@
+function main() {
+    var hnormal, hextra, sbruto, sliquido, desconto;
+
+    window.alert("Quantidade de horas normais trabalhadas");
+    hnormal = Number(window.prompt('Enter a value for hnormal'));
+    window.alert("Quantidade de horas extras trabalhadas");
+    hextra = Number(window.prompt('Enter a value for hextra'));
+    sbruto = hnormal * 148 + hextra * 165;
+    sliquido = sbruto * 0.91;
+    desconto = sbruto * 0.09;
+    window.alert("Salário Bruto: R$" + sbruto);
+    window.alert("Desconto: R$" + desconto);
+    window.alert("Salário Líquido: R$" + sliquido);
+}
