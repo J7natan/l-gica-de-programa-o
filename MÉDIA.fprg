@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M&#201;DIA"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-05 02:54:50 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjAyOjE1OjI2ICI7MzAwOA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjAyOjU0OjUwICI7MjszMTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AV1, AV2, AV3, AV4, M&#201;DIA" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <input variable="AV1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="AV2"/>
+            <output expression="&quot;Digite a terceira nota&quot;" newline="True"/>
+            <input variable="AV3"/>
+            <output expression="&quot;Digite a quarta nota&quot;" newline="True"/>
+            <input variable="AV4"/>
+            <assign variable="M&#201;DIA" expression="(AV1 + AV2 + AV3 + AV4) / 4"/>
+            <output expression="&quot;A M&#201;DIA &#201;&quot; &amp;M&#201;DIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

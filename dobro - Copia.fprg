@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dobro"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:37:33 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDQ7IjA0OjA5OjE1ICI7MzAxMA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDQ7IjA0OjM3OjMzICI7MTszMTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, dobro" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="dobro" expression="numero * 2"/>
+            <output expression="&quot;O dobro do n&#250;mero&quot; &amp; numero &amp; &quot;&#233;: &quot;&amp; dobro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

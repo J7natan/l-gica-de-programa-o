@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="potencia"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-05 03:49:26 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjAzOjQ3OjEyICI7MzAwOQ=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjAzOjQ5OjI2ICI7MTszMTI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, expoente, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor da base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite o valor do expoente&quot;" newline="True"/>
+            <input variable="expoente"/>
+            <assign variable="resultado" expression="base^expoente"/>
+            <output expression="&quot;O resultado &#233;:&quot; &amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

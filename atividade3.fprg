@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade3"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 02:28:53 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjM1OjI4ICI7MzAxNA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDY7IjAyOjI4OjUzICI7MjszMTIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total, tara, valor" type="Real" array="False" size=""/>
+            <output expression="&quot;Peso do prato (Tara)&quot;" newline="True"/>
+            <input variable="tara"/>
+            <output expression="&quot;Peso total&quot;" newline="True"/>
+            <input variable="total"/>
+            <assign variable="valor" expression="(total - tara) * 0.044"/>
+            <output expression="&quot;Valor a pagar: R$&quot; &amp;valor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

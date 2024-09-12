@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade5"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 02:16:06 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDY7IjAxOjUxOjUxICI7MzAwNg=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDY7IjAyOjE2OjA2ICI7MjszMTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anelesq, aneldir, frangos, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Quatidade de frangos&quot;" newline="True"/>
+            <input variable="frangos"/>
+            <assign variable="total" expression="frangos*11"/>
+            <assign variable="anelesq" expression="frangos * 2"/>
+            <assign variable="aneldir" expression="frangos*1"/>
+            <output expression="&quot;Quantidade de an&#233;is de identifica&#231;&#227;o:&quot;&amp;aneldir" newline="True"/>
+            <output expression="&quot;Quantidade de an&#233;is de indica&#231;&#227;o da alimenta&#231;&#227;o:&quot; &amp;anelesq" newline="True"/>
+            <output expression="&quot;Gasto total: R$&quot;&amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

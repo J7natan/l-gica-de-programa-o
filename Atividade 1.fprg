@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade 1"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-05 04:28:30 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjI0OjMwICI7MzAwNQ=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjI4OjMwICI7MTszMTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qcavalos, ferraduras" type="Integer" array="False" size=""/>
+            <output expression="&quot;Descreva a quantidade de Cavalos comprados&quot;" newline="True"/>
+            <input variable="qcavalos"/>
+            <assign variable="ferraduras" expression="qcavalos*4"/>
+            <output expression="&quot;Ferraduras necess&#225;rias:&quot; &amp;ferraduras" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

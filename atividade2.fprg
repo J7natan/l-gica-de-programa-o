@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade2"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 02:26:40 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjI4OjMyICI7MzAxMQ=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDY7IjAyOjI2OjQwICI7MzszMTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vcamp, camp, vcamm, camm, vcamg, camg, vtotal" type="Real" array="False" size=""/>
+            <output expression="&quot;Descreva a quantidade de Camisas Tamanho P&quot;" newline="True"/>
+            <input variable="camp"/>
+            <output expression="&quot;Descreva a quantidade de camisas tamanho M&quot;" newline="True"/>
+            <input variable="camm"/>
+            <output expression="&quot;Descreva a quantidade de camisas tamanho G&quot;" newline="True"/>
+            <input variable="camg"/>
+            <assign variable="vtotal" expression="(camp*10)+(camm*12)+(camg*15)"/>
+            <assign variable="vcamg" expression="camg*15.00"/>
+            <assign variable="vcamm" expression="camm*12.00"/>
+            <assign variable="vcamp" expression="camp*10.00"/>
+            <output expression="&quot;Camisas TAM. P: R$&quot;&amp;vcamp" newline="True"/>
+            <output expression="&quot;Camisas TAM. M: R$&quot;&amp;vcamm" newline="True"/>
+            <output expression="&quot;Camisas TAM. G: R$&quot;&amp;vcamg" newline="True"/>
+            <output expression="&quot;Valor total: R$&quot;&amp;vtotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

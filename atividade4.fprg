@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atividade4"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 12:19:08 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjQyOjUxICI7MzAwOA=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjUyOjQyICI7MjszMTE4"/>
+        <attribute name="edited" value="SnVhbjtERVNLVE9QLTEzMjYyNzQ7MjAyNC0wOS0wNjsiMTI6MTk6MDggIjsxOzI2NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hnormal, hextra, sbruto, sliquido, desconto" type="Real" array="False" size=""/>
+            <output expression="&quot;Quantidade de horas normais trabalhadas&quot;" newline="True"/>
+            <input variable="hnormal"/>
+            <output expression="&quot;Quantidade de horas extras trabalhadas&quot;" newline="True"/>
+            <input variable="hextra"/>
+            <assign variable="sbruto" expression="(hnormal*148)+(hextra*165)"/>
+            <assign variable="sliquido" expression="sbruto*0.91"/>
+            <assign variable="desconto" expression="sbruto*0.09"/>
+            <output expression="&quot;Sal&#225;rio Bruto: R$&quot; &amp;sbruto" newline="True"/>
+            <output expression="&quot;Desconto: R$&quot;&amp;desconto" newline="True"/>
+            <output expression="&quot;Sal&#225;rio L&#237;quido: R$&quot; &amp;sliquido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

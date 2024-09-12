@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="s&#225;lario"/>
+        <attribute name="authors" value="Aluno Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-05 04:24:26 "/>
+        <attribute name="created" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjAzOjM2OjIwICI7MzAwNg=="/>
+        <attribute name="edited" value="QWx1bm8gVGFyZGU7QVJMQUIwMUlORjE3OzIwMjQtMDktMDU7IjA0OjI0OjI2ICI7MzszMTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario, vendas, comiss&#227;o, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o sal&#225;rio fixo&quot;" newline="True"/>
+            <input variable="salario"/>
+            <output expression="&quot;Digite o valor total das vendas&quot;" newline="True"/>
+            <input variable="vendas"/>
+            <assign variable="comiss&#227;o" expression="vendas*0.05"/>
+            <assign variable="total" expression="salario+comiss&#227;o"/>
+            <output expression="&quot;O valor de comiss&#227;o &#233;: R$&quot;&amp;comiss&#227;o" newline="True"/>
+            <output expression="&quot;Sal&#225;rio L&#237;quido &#233;: R$&quot;&amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
